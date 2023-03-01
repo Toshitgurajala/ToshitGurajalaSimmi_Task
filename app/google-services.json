@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "819771767191",
+    "project_id": "imagesbucket-simmi-task",
+    "storage_bucket": "imagesbucket-simmi-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819771767191:android:8ed07d7d560c71f1c1acd2",
+        "android_client_info": {
+          "package_name": "com.example.toshitgurajalasimmi_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819771767191-fedsss161ah9b3alm5fv32iqp3rf0e7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6miU_7EgbyiLypGu7-QOI6A71hIT3thM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819771767191-fedsss161ah9b3alm5fv32iqp3rf0e7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

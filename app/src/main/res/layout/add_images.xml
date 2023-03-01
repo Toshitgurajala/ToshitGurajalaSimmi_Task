@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_margin="8dp">
+
+    <EditText
+        android:id="@+id/imagebucketname"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:hint="Enter Bucket Name"
+        android:inputType="textNoSuggestions" />
+
+    <Button
+        android:id="@+id/removebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagebucketname"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="6dp"
+        android:text="Remove" />
+
+    <Button
+        android:id="@+id/buttonview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagebucketname"
+        android:layout_toEndOf="@id/removebtn"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="8dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagebucketname"
+        android:layout_toEndOf="@id/buttonview"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="8dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/UploadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagebucketname"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="8dp"
+            android:textSize="11sp"
+        android:layout_toEndOf="@id/Add"
+        android:text="Upload" />
+</RelativeLayout>
